@@ -23,19 +23,19 @@ using JuMP
 Variables for solving the problem (change these)
 =#
 # num_lineups is the total number of lineups
-num_lineups = 100
+num_lineups = 10
 
 # num_overlap is the maximum overlap of players between the lineups that you create
 num_overlap = 7
 
 # path_skaters is a string that gives the path to the csv file with the skaters information (see example file for suggested format)
-path_skaters = "example_skaters.csv"
+path_skaters = "1example_skaters.csv"
 
 # path_goalies is a string that gives the path to the csv file with the goalies information (see example file for suggested format)
-path_goalies = "example_goalies.csv"
+path_goalies = "1example_goalies.csv"
 
 # path_to_output is a string that gives the path to the csv file that will give the outputted results
-path_to_output= "output.csv"
+path_to_output= "/users/home/output.csv"
 
 
 
